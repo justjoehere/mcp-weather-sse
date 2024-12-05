@@ -1,0 +1,31 @@
+[project]
+name = "mcp_weather_service"
+version = "0.1.0"
+description = "Demo MCP server for Dynamics"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp==1.0.0",
+    "uvicorn>=0.24.0",
+    "starlette>=0.31.0",
+    "python-weather>=1.1.1",
+    "httpx==0.28.0",
+]
+authors = [
+    {name = "Joe Ours"}
+]
+maintainers = [
+    {name = "Joe Ours"}
+]
+readme = "README.MD"
+license = { text = "MIT" }
+keywords = ["gpt", "claude", "agents", "ai", "mcp"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+
+
+
+
+
